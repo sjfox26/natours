@@ -8,9 +8,31 @@
 
 html {
   //this defines what 1rem is
-  font-size: 62.5%; /* 10/16 since 16px is browser default size- important for accessibility*/
+  font-size: 62.5%; /* 10/16 since 16px is browser default size- important for accessibility...1rem = 10px*/
+
+  /*@include respond(phone) {
+    font-size: 50%;
+  }*/
+
+  @include respond(tab-land) { //width < 1200?
+    font-size: 56.25%; //want 1rem to equal 9px, 9/16 = 50%
+  }
+
+  @include respond(tab-port) { //width < 900?... WE WANT SMALLER ONE TO APPLY-ORDER IS IMPORTANT
+    font-size: 50%; //want 1rem to equal 8px, 8/16 = 50%
+  }
+
+  @include respond(big-desktop) {
+    font-size: 75%; //want 1rem to equal 12px, 12/16 = 75%
+  }
+
 }
 
 body {
   box-sizing: border-box;
+  padding: 3rem; /*30px / 10 = 3rem*/
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
 }
