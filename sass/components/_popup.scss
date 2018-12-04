@@ -30,8 +30,16 @@
     display: table-cell;
 
     @include respond(tab-land) {
-      display: none;
+      width: 100%;
+      display: block;
+
+      &::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
     }
+
   }
 
   &__right {
@@ -55,7 +63,9 @@
     width: 100%;
 
     @include respond(tab-land) {
-      display: none;
+      width: 50%;
+      display: inline-block;
+      float: left;
     }
   }
 

@@ -554,7 +554,12 @@ body {
     display: table-cell; }
     @media (max-width: 75em) {
       .popup__left {
-        display: none; } }
+        width: 100%;
+        display: block; }
+        .popup__left::after {
+          content: "";
+          display: table;
+          clear: both; } }
   .popup__right {
     width: 66.6666667%;
     display: table-cell;
@@ -571,7 +576,9 @@ body {
     width: 100%; }
     @media (max-width: 75em) {
       .popup__img {
-        display: none; } }
+        width: 50%;
+        display: inline-block;
+        float: left; } }
   .popup__text {
     font-size: 1.4rem;
     -moz-column-count: 2;
