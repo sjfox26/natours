@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3982a66e-73b2-4ccc-ba65-750737371e6b" name="Default Changelist" comment="" />
+    <list default="true" id="3982a66e-73b2-4ccc-ba65-750737371e6b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +26,7 @@
           <entry key="html" value="2" />
           <entry key="jpg" value="10" />
           <entry key="json" value="2" />
-          <entry key="scss" value="99" />
+          <entry key="scss" value="101" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -33,12 +36,13 @@
           <entry key="Image" value="10" />
           <entry key="JSON" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SCSS" value="99" />
+          <entry key="SCSS" value="101" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1643" />
+          <entry key="gitignore" value="5" />
           <entry key="html" value="4571" />
           <entry key="json" value="472" />
           <entry key="scss" value="11473" />
@@ -49,6 +53,7 @@
           <entry key="CSS" value="1643" />
           <entry key="HTML" value="4571" />
           <entry key="JSON" value="472" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="SCSS" value="11473" />
         </counts>
       </usages-collector>
@@ -100,7 +105,16 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/base/_typography.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14">
+              <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -223,12 +237,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542992156071</updated>
-      <workItem from="1542992157675" duration="92795000" />
+      <workItem from="1542992157675" duration="93326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92795000" />
+    <option name="totallyTimeSpent" value="93326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="61" width="1440" height="812" extended-state="0" />
@@ -292,13 +306,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/base/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/layout/_grid.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -310,13 +317,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/base/_utilities.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -456,10 +456,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/base/_utilities.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/base/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
